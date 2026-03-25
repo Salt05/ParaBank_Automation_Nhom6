@@ -1,0 +1,41 @@
+[
+  {
+    "firstName": "Test",
+    "lastName": "User",
+    "address": "123 Main St",
+    "city": "Hanoi",
+    "state": "HN",
+    "zipCode": "100000",
+    "phone": "0123456789",
+    "ssn": "123456789",
+    "username": "user1",
+    "password": "Password123",
+    "confirmPassword": "Password123"
+  },
+  {
+    "firstName": "Demo",
+    "lastName": "Account",
+    "address": "456 Second St",
+    "city": "HCM",
+    "state": "SG",
+    "zipCode": "700000",
+    "phone": "0987654321",
+    "ssn": "987654321",
+    "username": "user2",
+    "password": "Password456",
+    "confirmPassword": "Password456"
+  },
+  {
+    "firstName": "John",
+    "lastName": "Smith",
+    "address": "1234 Main Street",
+    "city": "Beverly Hills",
+    "state": "CA",
+    "zipCode": "90210",
+    "phone": "5555551212",
+    "ssn": "987654321",
+    "username": "john",
+    "password": "demo",
+    "confirmPassword": "demo"
+  }
+]

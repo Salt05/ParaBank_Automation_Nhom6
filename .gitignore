@@ -1,0 +1,19 @@
+# Build output
+**/bin/
+**/obj/
+*.vs/
+.vs/
+
+# Test results
+TestResults/
+*.trx
+
+# Logs & Screenshots
+Reports/
+
+# Sensitive doc files
+ParaBank_TestCases.md
+ParaBank_Agent_Context.md
+
+# Misc
+*.py

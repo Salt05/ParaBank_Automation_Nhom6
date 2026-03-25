@@ -1,4 +1,6 @@
 using OpenQA.Selenium;
+using OpenQA.Selenium.Support.UI;
+using SeleniumExtras.WaitHelpers;
 
 namespace ParaBank_Automation.Pages
 {
@@ -21,6 +23,8 @@ namespace ParaBank_Automation.Pages
         // Gửi text vào element theo locator
         protected void SendKeys(By locator, string text)
         {
+            var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+            wait.Until(ExpectedConditions.ElementIsVisible(locator));
             driver.FindElement(locator).Clear();
             driver.FindElement(locator).SendKeys(text);
         }

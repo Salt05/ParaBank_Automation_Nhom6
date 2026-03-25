@@ -1,0 +1,19 @@
+{
+  "validTransfer": {
+    "amount": "50",
+    "description": "Chuyển tiền hợp lệ"
+  },
+  "negativeTransfer": {
+    "amount": "-50",
+    "description": "Chuyển số tiền âm"
+  },
+  "spamTransfer": {
+    "amount": "1",
+    "spamClickCount": 5,
+    "description": "Spam Click Race Condition"
+  },
+  "overflowTransfer": {
+    "amount": "999999999999999999",
+    "description": "Integer Overflow"
+  }
+}

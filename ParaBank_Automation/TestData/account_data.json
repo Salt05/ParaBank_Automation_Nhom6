@@ -1,0 +1,24 @@
+{
+  "openChecking": {
+    "accountType": "CHECKING",
+    "description": "Mở tài khoản Checking"
+  },
+  "openSavings": {
+    "accountType": "SAVINGS",
+    "description": "Mở tài khoản Savings"
+  },
+  "seedTransfer": {
+    "amount": "10",
+    "description": "Giao dịch mồi để có dữ liệu tra cứu"
+  },
+  "approvedLoan": {
+    "loanAmount": "5000",
+    "downPayment": "100",
+    "description": "Yêu cầu vay vốn hợp lệ"
+  },
+  "insufficientLoan": {
+    "loanAmount": "5000",
+    "downPayment": "50000",
+    "description": "Down Payment vượt số dư - phải bị từ chối"
+  }
+}

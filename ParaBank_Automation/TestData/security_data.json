@@ -1,0 +1,30 @@
+{
+  "profileUpdate": {
+    "city": "NewCity",
+    "phone": "9876543210",
+    "description": "Cập nhật thông tin cá nhân để kiểm tra Persistence"
+  },
+  "xssPayload": {
+    "city": "<script>alert('Hacked')</script>",
+    "phone": "12345",
+    "description": "Chèn mã độc XSS vào trường City"
+  },
+  "loginFail": {
+    "username": "john",
+    "wrongPassword": "sai123",
+    "description": "Đăng nhập sai mật khẩu"
+  },
+  "duplicateUser": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "address": "123 Street",
+    "city": "City",
+    "state": "State",
+    "zipCode": "12345",
+    "phone": "1234567890",
+    "username": "john",
+    "password": "Password123",
+    "confirmPassword": "Password123",
+    "description": "Đăng ký Username trùng lặp - phải bị từ chối"
+  }
+}

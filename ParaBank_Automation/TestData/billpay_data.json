@@ -1,0 +1,26 @@
+{
+  "validPayment": {
+    "payeeName": "PayeeTest",
+    "address": "123 Nguyen Hue",
+    "city": "Ho Chi Minh",
+    "state": "SG",
+    "zipCode": "700000",
+    "phone": "0901234567",
+    "accountNumber": "987654",
+    "verifyAccountNumber": "987654",
+    "amount": "100",
+    "description": "Thanh toán Bill hợp lệ"
+  },
+  "mismatchedPayment": {
+    "payeeName": "PayeeTest",
+    "address": "123 Nguyen Hue",
+    "city": "Ho Chi Minh",
+    "state": "SG",
+    "zipCode": "700000",
+    "phone": "0901234567",
+    "accountNumber": "123",
+    "verifyAccountNumber": "456",
+    "amount": "100",
+    "description": "Số tài khoản không khớp"
+  }
+}
